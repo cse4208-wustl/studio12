@@ -69,7 +69,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    In `main`, replace the type portion of the declaration of each of the integer and pointer variables with the appropriate one of those type aliases.
 
-   Compile and run your program. In your answers, show the declarations that use those type aliases.
+   Compile and run your program. In your answers, show the declarations that use those typedefs and variables using those typedefs.
 
 7. Replace each of the typedefs you added in the previous exercise with an equivalent alias declaration that uses the `using` keyword, keeping the same alias names so that the declarations of the integer and pointer variables in `main` do not need to change.
 
