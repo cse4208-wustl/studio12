@@ -44,7 +44,7 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Then, in separate lines of code, have `main` print to `cout` the values of the `const int` and non-`const` `int` variables, and for each of the pointers the address it contains followed by the value of what it points to.
 
-   Try to build your program, and comment out any lines that will not compile. In your answers, show the lines that had to be commented out, and for each of them explain briefly why it could not be compiled.
+   Try to build your program, and comment out any lines that will not compile. In your answers, show your code that declares and initializes the variables for this exercise, including the commented out lines. Explain why the commented out lines could not be compiled. 
 
 3. In `main`, after the output statements that remain, write separate statements (on separate lines of code) that use the prefix `++` operator (which is built in for `int` and pointer types) to modify the value of each of the variables whose declarations were not commented out. For the pointer variables, add a separate statement that modifies what the pointer points to.
 
