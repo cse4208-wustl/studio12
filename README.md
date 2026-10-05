@@ -68,6 +68,10 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Compile and run your program. In your answers, show the declarations that use those type aliases.
 
+7. Replace each of the typedefs you added in the previous exercise with an equivalent alias declaration that uses the `using` keyword, keeping the same alias names so that the declarations of the integer and pointer variables in `main` do not need to change.
+
+   Compile and run your program. In your answers, show the alias declarations.
+
 ## Deliverables
 
 Commit and push all modified and added files, including `ANSWERS.md`, to the repo.
