@@ -46,19 +46,22 @@ Record your answers in `ANSWERS.md` as you work. Include the names of everyone w
 
    Try to build your program, and comment out any lines that will not compile. In your answers, show your code that declares and initializes the variables for this exercise, including the commented out lines. Explain why the commented out lines could not be compiled. 
 
-3. In `main`, after the output statements that remain, write separate statements (on separate lines of code) that use the prefix `++` operator (which is built in for `int` and pointer types) to modify the value of each of the variables whose declarations were not commented out. For the pointer variables, add a separate statement that modifies what the pointer points to.
+3. In `main`, after the output statements that remain, use the prefix `++` operator (which is built in for `int` and pointer types) to try to modify each of the variables whose declarations were not commented out. Put each statement on its own line:
+
+   - For each `int` variable, increment the variable itself (for example, `++i;`).
+   - For each pointer variable, write two statements: first one that increments what the pointer points to (for example, `++*p;`), then one that increments the pointer itself (for example, `++p;`).
 
    Try to build your program, and again comment out any of the newly added lines that will not compile. In your answers, show the lines that had to be commented out, and for each of them explain briefly why it could not be compiled.
 
 4. In `main`, after the declaration of each of the integer and pointer variables, add another declaration (on a separate line of code) for another variable that is declared using the `auto` type specifier and is initialized with the original variable.
 
-   For each of the variables declared using the `auto` type specifier, use the prefix `++` operator to determine whether or not it can be modified (and in the case of pointer types, also whether or not what it points to can be modified).
+   For each of the variables declared using the `auto` type specifier, use the prefix `++` operator to determine whether or not it can be modified. For pointer types, as in the previous exercise, first test whether what the pointer points to can be modified, then whether the pointer itself can be modified.
 
    Try to build your program, and again comment out any of the newly added lines that will not compile. In your answers, explain whether or not either low-level `const` or top-level `const` properties were discarded in any of the declarations that used the `auto` type specifier. If they were, show the declaration and explain briefly which of them was discarded and how you know that.
 
 5. In `main`, replace the `auto` type specifier with the `decltype` type specifier in each of the declarations that you added in the previous exercise.
 
-   For each of the variables in those declarations, again use the prefix `++` operator to determine whether or not it can be modified (and in the case of pointer types, also whether or not what it points to can be modified).
+   For each of the variables in those declarations, again use the prefix `++` operator to determine whether or not it can be modified. For pointer types, again first test whether what the pointer points to can be modified, then whether the pointer itself can be modified.
 
    Try to build your program, and again comment out any of the newly added lines that will not compile. In your answers, explain whether (and if so, how) the use of the `decltype` type specifier differed from the use of the `auto` type specifier, in terms of whether or not either low-level `const` or top-level `const` properties were discarded in any of the declarations.
 
